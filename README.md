@@ -1,13 +1,16 @@
-# Commentary Docs Framework Fixtures
+# Nextra Markdown Compatibility Fixture
 
-This public repository contains stable docs-framework fixtures for Commentary.
+Demonstrates Nextra detection and MDX-safe preview behavior.
 
-## Fixture Branches
+## Manual Commentary Routes
 
-- `fixture/docusaurus`
-- `fixture/nextra`
-- `fixture/mkdocs`
-- `fixture/vitepress`
-- `fixture/vuepress`
+```text
+/review/github/commentary-dev/commentary-docs-framework-fixtures/pull/2?file=content%2Findex.mdx
+```
 
-Each branch has a README that describes the framework-specific Markdown behavior it demonstrates.
+## Feature Coverage
+
+- `_meta.json` navigation detection.
+- Nextra MDX pages.
+- Callout, Cards, Steps, and Tabs placeholders.
+- MDX import/export/component detection.
