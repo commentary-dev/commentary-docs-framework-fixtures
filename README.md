@@ -1,13 +1,17 @@
-# Commentary Docs Framework Fixtures
+# MkDocs Markdown Compatibility Fixture
 
-This public repository contains stable docs-framework fixtures for Commentary.
+Demonstrates MkDocs Material Markdown behavior.
 
-## Fixture Branches
+## Manual Commentary Routes
 
-- `fixture/docusaurus`
-- `fixture/nextra`
-- `fixture/mkdocs`
-- `fixture/vitepress`
-- `fixture/vuepress`
+```text
+/review/github/commentary-dev/commentary-docs-framework-fixtures/pull/3?file=docs%2Findex.md
+```
 
-Each branch has a README that describes the framework-specific Markdown behavior it demonstrates.
+## Feature Coverage
+
+- `mkdocs.yml` detection.
+- Admonitions and collapsible details.
+- Snippet include expansion.
+- Attribute lists.
+- Content tabs.
