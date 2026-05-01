@@ -1,13 +1,17 @@
-# Commentary Docs Framework Fixtures
+# Docusaurus Markdown Compatibility Fixture
 
-This public repository contains stable docs-framework fixtures for Commentary.
+Demonstrates Docusaurus detection and Markdown preview behavior.
 
-## Fixture Branches
+## Manual Commentary Routes
 
-- `fixture/docusaurus`
-- `fixture/nextra`
-- `fixture/mkdocs`
-- `fixture/vitepress`
-- `fixture/vuepress`
+```text
+/review/github/commentary-dev/commentary-docs-framework-fixtures/pull/1?file=docs%2Fintro.md
+```
 
-Each branch has a README that describes the framework-specific Markdown behavior it demonstrates.
+## Feature Coverage
+
+- `docusaurus.config.js` and `sidebars.js` detection.
+- Docusaurus frontmatter.
+- Admonitions.
+- Tabs and TabItem placeholders.
+- Code block metadata.
