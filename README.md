@@ -1,13 +1,9 @@
-# Commentary Docs Framework Fixtures
+# VuePress Markdown Compatibility Fixture
 
-This public repository contains stable docs-framework fixtures for Commentary.
+Demonstrates VuePress config detection, containers, frontmatter, and component placeholders.
 
-## Fixture Branches
+## Manual Commentary Routes
 
-- `fixture/docusaurus`
-- `fixture/nextra`
-- `fixture/mkdocs`
-- `fixture/vitepress`
-- `fixture/vuepress`
-
-Each branch has a README that describes the framework-specific Markdown behavior it demonstrates.
+```text
+/review/github/commentary-dev/commentary-docs-framework-fixtures/pull/5?file=guide%2Findex.md
+```
